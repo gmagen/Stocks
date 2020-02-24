@@ -1,6 +1,6 @@
 $(function() {
         $(".container").scrollTop(500);
-        $(".corona").scrollTop(6900);
+        $(".corona").scrollTop(5900);
       });
 
       function myFunction() {
