@@ -12,7 +12,7 @@ body {
     width: 100%;
   }
 
-.container
+.container,.corona
 {
   display: inline-block;
   width: 100%;
