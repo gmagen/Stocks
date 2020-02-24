@@ -14,7 +14,13 @@
   <body>
     <button onclick="myFunction();">Reload</button>
     <a href="https://repl.it/@GabrielMagen/Stocks" target="new">View Repl.It</a>
-    (autorefresh every 5 min)
+    last updated: 
+    <span id="demo">time will appear here</span>
+    <script>
+      document.getElementById('demo').innerHTML = Date();
+    </script>
+       
+    
     <br>
 
     <div class="ocontainer">
