@@ -10,3 +10,7 @@ $(function() {
         location.reload();
       }, 900000);
       //------------------------------------------------------
+function GetTimeStamp()
+{
+        document.getElementById('demo').innerHTML = Date();
+}
