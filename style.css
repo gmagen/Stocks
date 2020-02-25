@@ -12,12 +12,20 @@ body {
     width: 100%;
   }
 
-.container,.corona
+.container
 {
   display: inline-block;
   width: 100%;
   height: 90%;
   overflow: scroll;
+}    
+
+.corona
+{
+  display: inline-block;
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
 }    
 
 .ocontainer
