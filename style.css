@@ -12,7 +12,7 @@ body {
     width: 100%;
   }
 
-.container
+.container,.events,.coins
 {
   display: inline-block;
   width: 100%;
