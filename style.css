@@ -6,18 +6,24 @@ body {
 
   iframe 
   {
-    background-color: #000000;
     border: none;
     height: 5400px;
     width: 100%;
   }
 
-.container,.events,.coins
+.container,.events,.coins,.stocks
 {
   display: inline-block;
   width: 100%;
   height: 90%;
   overflow: scroll;
+}    
+
+.container_noscroll
+{
+  display: inline-block;
+  width: 100%;
+  height: 90%;
 }    
 
 .corona
