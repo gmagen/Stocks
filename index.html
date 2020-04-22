@@ -21,48 +21,15 @@
     </script>
     <br>
     <div class="ocontainer">
-      My Stocks<br>
-      <div class="stocks">
-
-
-<script>
-   if (typeof(stockdio_events) == "undefined") {
-      stockdio_events = true;
-      var stockdio_eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
-      var stockdio_eventer = window[stockdio_eventMethod];
-      var stockdio_messageEvent = stockdio_eventMethod == "attachEvent" ? "onmessage" : "message";
-      stockdio_eventer(stockdio_messageEvent, function (e) {
-         if (typeof(e.data) != "undefined" && typeof(e.data.method) != "undefined") {
-            eval(e.data.method);
-         }
-      },false);
-   }
-</script>
-<iframe id='st_abe101a33c1f4e5d89637079d726753c' frameBorder='0' scrolling='no' width='600' height='100%' src='https://api.stockdio.com/visualization/financial/charts/v1/QuoteBoard?app-key=16C787F707A146CEB7AA858A5EF8E9C2&stockExchange=TASE&symbols=ITMR;ALHE;AMOT;BIG;ENRG;FIBI;TEVA;MDGS;NICE;SAE&intraday=false&includeVolume=true&palette=Financial-Light&title=Watch%20List&onload=st_abe101a33c1f4e5d89637079d726753c'></iframe>
-
-
-
-
-<script>
-   if (typeof(stockdio_events) == "undefined") {
-      stockdio_events = true;
-      var stockdio_eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
-      var stockdio_eventer = window[stockdio_eventMethod];
-      var stockdio_messageEvent = stockdio_eventMethod == "attachEvent" ? "onmessage" : "message";
-      stockdio_eventer(stockdio_messageEvent, function (e) {
-         if (typeof(e.data) != "undefined" && typeof(e.data.method) != "undefined") {
-            eval(e.data.method);
-         }
-      },false);
-   }
-</script>
-<iframe id='st_c7f39bb9fd0f478b81edffe0799f7662' frameBorder='0' scrolling='no' width='600' height='100%' src='https://api.stockdio.com/visualization/financial/charts/v1/QuoteBoard?app-key=16C787F707A146CEB7AA858A5EF8E9C2&symbols=TSLA;SEDG;CHMA;NFLX;AMZN&intraday=false&includeVolume=true&palette=Financial-Light&title=Watch%20List&onload=st_c7f39bb9fd0f478b81edffe0799f7662'></iframe>
-
+      <h1><center><b>Portfolio תיק אישי</b></center></h1><br>
+      <div class="container">
+        <iframe
+        src="https://www.investing.com/portfolio/?portfolioID=MT00YWcxMm0xZjkyN2M%3D">Portfolio</iframe>
       </div>
     </div>
 
     <div class="ocontainer">
-      Arbitrage <br>
+      <h1><center><b>Arbitrage - ארביטראז</b></center></h1><br><br>
       <div class="container">
         <iframe
         src="https://www.globes.co.il/portal/arbitrage/">Arbitrage</iframe>
@@ -71,7 +38,7 @@
     <br />
 
     <div class="ocontainer">
-      Future indics<br>
+      <h1><center><b>Future indics חוזים עתידיים</b></center></h1><br><br>
       <div class="container">
         <iframe
         src="https://www.investing.com/indices/indices-futures">Future indics</iframe>
@@ -79,7 +46,7 @@
     </div>
     
     <div class="ocontainer">
-      Events<br>
+      <h1><center><b>Major Events אירועים חשובים</b></center></h1><br><br>
       <div class="events">
        <iframe src="https://sslecal2.forexprostools.com?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&importance=3&features=timezone,timeselector&countries=37,72,22,17,39,23,10,35,56,36,11,26,4,5&calType=day&timeZone=17&lang=1" width="650" height="467" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 11px;color: #333333;text-decoration: none;">Real Time Economic Calendar provided by <a href="https://www.investing.com/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link">Investing.com</a>.</span></div>
       </div>
@@ -87,7 +54,7 @@
     <br />
 
     <div class="ocontainer">
-      World Market<br>
+      <h1><center><b>World Market שווקים בעולם</b></center></h1><br><br>
       <div class="container">
         <iframe
         src="https://www.investing.com/indices/major-indices">World Market</iframe>
@@ -95,21 +62,29 @@
     </div>
 
     <div class="ocontainer">
-      Coins<br>
+      <h1><center><b>Currency מטבעות</b></center></h1><br><br>
       <div class="container_noscroll">
-        <iframe src="https://www.widgets.investing.com/live-currency-cross-rates?theme=darkTheme&cols=last,high,low,changePerc,time&pairs=64,65,9682,9716,63" width="100%" height="100%" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;">Powered by <a href="https://www.investing.com?utm_source=WMT&amp;utm_medium=referral&amp;utm_campaign=LIVE_CURRENCY_X_RATES&amp;utm_content=Footer%20Link" target="_blank" rel="nofollow">Investing.com</a></div>
+        
+        <iframe src="https://www.widgets.investing.com/live-currency-cross-rates?theme=darkTheme&cols=last,high,low,changePerc,time&pairs=64,65,9682,9716,63" width="100%" height="100%" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0">
+        </iframe>
+        <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;">
+            Powered by 
+            <a href="https://www.investing.com?utm_source=WMT&amp;utm_medium=referral&amp;utm_campaign=LIVE_CURRENCY_X_RATES&amp; utm_content=Footer%20Link" target="_blank" rel="nofollow">
+            Investing.com
+            </a>
+        </div>
       </div>
     </div>
     <br>
     <div class="ocontainer">
-      Corona outside china<br>
+      <h1><center><b>World Corona קורונה בעולם</b></center></h1><br><br>
       <div class="corona">
         <iframe
         src="https://www.worldometers.info/coronavirus/coronavirus-cases/">Corona</iframe>
       </div>
     </div>
     <div class="ocontainer">
-      World Clock<br>
+      <h1><center><b>World Clock שעון עולמי</b></center></h1><br><br>
       <div class="cleanslate w24tz-current-time w24tz-small" style="display: inline-block !important; visibility: hidden !important; min-width:200px !important; min-height:100px !important;"><p><a href="//24timezones.com/time-zone/hkt" style="text-decoration: none" class="clock24" id="tz24-1584610608-tzhkt-eyJob3VydHlwZSI6IjI0Iiwic2hvd2RhdGUiOiIxIiwic2hvd3NlY29uZHMiOiIwIiwiY29udGFpbmVyX2lkIjoiY2xvY2tfYmxvY2tfY2I1ZTczM2QzMDUxOGY0IiwidHlwZSI6ImRiIiwibGFuZyI6ImVuIn0=" title="local time in HKT" target="_blank">Hong Kong</a></p><div id="clock_block_cb5e733d30518f4"></div></div>
 
       <div class="cleanslate w24tz-current-time w24tz-small" style="display: inline-block !important; visibility: hidden !important; min-width:200px !important; min-height:100px !important;"><p><a href="//24timezones.com/Tel-Aviv/time" style="text-decoration: none" class="clock24" id="tz24-1584610476-c1676-eyJob3VydHlwZSI6IjI0Iiwic2hvd2RhdGUiOiIxIiwic2hvd3NlY29uZHMiOiIwIiwiY29udGFpbmVyX2lkIjoiY2xvY2tfYmxvY2tfY2I1ZTczM2NhYzdhMThhIiwidHlwZSI6ImRiIiwibGFuZyI6ImVuIn0=" title="Tel Aviv time" target="_blank">Tel Aviv</a></p><div id="clock_block_cb5e733cac7a18a"></div></div>
@@ -120,13 +95,7 @@
 
       <script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
 
-      <br>Rules<br>
-      <ol>
-         <li>Don't view stocks every day.</li>
-         <li>Buy / Sell only once a month.</li>
-         <li>Activity log: 24/02/2020</li>
-         <li>Activity log: 17/03/2020</li>
-      </ol>
+      
     </div>
 
   </body>
