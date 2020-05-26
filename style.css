@@ -38,6 +38,13 @@ body {
 {
   display: inline-block;
   width: 49%;
-  height: 450px;
+  height: 400px;
   overflow: hidden;
 }    
+
+.title
+{
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
