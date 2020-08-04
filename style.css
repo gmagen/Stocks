@@ -48,3 +48,8 @@ body {
   text-align: center;
   font-size: 30px;
 }
+
+td {
+vertical-align: top;
+text-align: left;
+}
